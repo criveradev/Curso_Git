@@ -3,3 +3,6 @@ Mi historia
 Hola, mi nombre es Claudio Rivera, tengo 32 años, soy Ingeniero en Informatica,
 con conocimientos en distintos lenguajes de programacion, ya sean, JavaScript, Python,
 JAVA.
+
+Naci en el hospital de talca, el 9 de mayo de 1991, durante mi enseñanza basica fui
+a colegio Patronato Mariana Silva.
