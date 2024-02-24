@@ -18,6 +18,8 @@ p {
     height: 200px;
     flex-direction: column;
     border-radius: 10px;
+    border: 1px solid orange;
+    margin-bottom: 10px;
 }
 
 .item {
@@ -27,6 +29,28 @@ p {
 }
 
 .container .item:nth-child(2n +1) {
+    background: cyan;
+}
+
+.container-flex {
+    display: flex;
+    background: orange;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    flex-direction: row;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.item-flex {
+    background: blueviolet;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.container-flex .item-flex:nth-child(2n +1) {
     background: cyan;
 }
 
