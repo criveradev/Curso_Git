@@ -9,3 +9,34 @@ h1,
 p {
     color: grey;
 }
+
+.container {
+    display: flex;
+    background: gray;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.item {
+    width: 30px;
+    height: 30px;
+    background: mediumorchid;
+}
+
+.container .item:nth-child(2n +1) {
+    background: cyan;
+}
+
+/* .container .item: Selecciona todos los elementos 
+    con la clase .item que son descendientes de un 
+    elemento con la clase .container.
+
+    :nth-child(2n + 1): Selecciona elementos que son 
+    el primer hijo (1), tercer hijo (3), quinto hijo (5), 
+    y asÃ­ sucesivamente, dentro de su contenedor. 
+    La expresiÃ³n 2n + 1 significa que seleccionarÃ¡ todos 
+    los elementos impares en tÃ©rminos de su posiciÃ³n dentro del contenedor.
+*/
